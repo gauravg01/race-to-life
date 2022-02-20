@@ -1,2 +1,2 @@
-# race-to-life
+# Race to Life
 An open-world multiplayer survival metaverse game

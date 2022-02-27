@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -21,20 +22,21 @@ public class ErrorContoller implements ErrorController {
 	}
 	
 	@RequestMapping("/error")
-	public String handleError(HttpServletRequest request) {
+	public String handleError(HttpServletRequest request, ModelMap model) {
 	    Object status = request.getAttribute(RequestDispatcher.ERROR_STATUS_CODE);
 	    logger.error(request.toString());
+	    model.put("error", request.toString());
 	    if (status != null) {
 	        Integer statusCode = Integer.valueOf(status.toString());
 	     
 	        if(statusCode == HttpStatus.NOT_FOUND.value()) {
-	            return "error404";
+	            return "error";
 	        }
 	        else if(statusCode == HttpStatus.INTERNAL_SERVER_ERROR.value()) {
-	            return "error500";
+	            return "error";
 	        }
 	    }
-	    return "error500";
+	    return "error";
 	}
 
 }

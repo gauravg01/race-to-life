@@ -13,7 +13,7 @@ public class RegisterRepoImpl implements RegisterRepo {
 	registerDAO dao;
 
 	public String register(String uname, String password) {
-		String result = dao.register(uname,password);
+		String result = dao.register(uname.toLowerCase(),password);
 		if(result.equalsIgnoreCase("duplicate"))
 			result="User already exists, Please login!";
 		else if (result.equalsIgnoreCase("error"))

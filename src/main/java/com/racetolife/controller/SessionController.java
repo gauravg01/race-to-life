@@ -91,14 +91,15 @@ public class SessionController {
 		return json;
 	}
 	
-	@SuppressWarnings("unchecked")
-	@GetMapping("/")
-	public JSONObject login() {
-		JSONObject json = new JSONObject();
-		json.put("name", getLoggedInUserName());
-		return json;
-	}
+//	@SuppressWarnings("unchecked")
+//	@GetMapping("/")
+//	public JSONObject login() {
+//		JSONObject json = new JSONObject();
+//		json.put("name", getLoggedInUserName());
+//		return json;
+//	}
 	
+	@SuppressWarnings("unused")
 	private String getLoggedInUserName() {
 		Object principal = SecurityContextHolder.getContext()
 				.getAuthentication().getPrincipal();

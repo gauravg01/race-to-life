@@ -93,7 +93,7 @@
 										<nav class="main-menu">
 											<ul class="menu-area-main">
 												<li class="active"><a href="#game">Game</a></li>
-												<li><a href="#software">Software</a></li>
+												<li><a href="#software">Abstract</a></li>
 												<li><a href="#about">About</a></li>
 												<li><a href="#testimonial">Testimonial</a></li>
 												<li><a href="#contact">Contact</a></li>

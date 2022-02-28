@@ -19,7 +19,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="titlepage">
-						<h2>Software</h2>
+						<h2>Abstract</h2>
 					</div>
 				</div>
 			</div>
@@ -37,19 +37,10 @@
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
 					<div class="box_text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-							ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-							aute irure dolor in reprehenderit in voluptate velit esse cillum
-							dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit
-							anim id est laborumLorem ipsum dolor sit amet, consectetur
-							adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-							exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat</p>
-						<a href="#">Read more</a>
+						<p><b>Race to Life</b> is the metaverse game application. The objective of the <b>Race to Life</b> game is to make general population aware about various fatal diseases and its duration, precautions to be adapted in order to safeguard themselves. This game will not only create a challenging environment, but it will also provide fun and healthy environment to users.
+						Players will race from point A to point B. There will be in between checkpoints, hurdles, exposed zones, and healing places. Players can contact diseases at exposed zones and can get cured at healing places accordingly. To get cured, a certain time will be added to players timeline. With each increasing levels, the number of nonplaying characters (NPCs) will increase up to a certain limit and will contain deadly diseases accordingly. Players will be starting as a healthy person and are supposed to reach at point B as is. The Player to reach to point B in less time wins the game.
+						During the outbreak of new diseases, myths and rumors are spread across the world and people lack knowledge on various infectious diseases and how to get cure of such diseases if they get infected by it. For bursting these myths and rumors of people, the <b>Race to Life</b> metaverse game application will be helpful.</p>
+						<!-- <a href="#">Read more</a> -->
 					</div>
 				</div>
 			</div>
@@ -75,8 +66,7 @@
 						</figure>
 
 						<p>
-							consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							<br> labore et dolore magna aliqua. Ut enim conseq
+							An open-world multiplayer survival metaverse game
 						</p>
 					</div>
 				</div>
@@ -122,11 +112,9 @@
 						</div>
 					</div>
 					<div class="clients_box">
-						<h3>Jecoo</h3>
+						<h3>U of W</h3>
 						<p>
-							adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna <br>aliqua. Ut enim ad minim veniam, quis <br>nostrud
-							exercitation ullamco
+							An open-world multiplayer survival metaverse game
 						</p>
 
 					</div>

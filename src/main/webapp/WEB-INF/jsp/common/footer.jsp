@@ -27,17 +27,17 @@
 										<li><a href="#"><img src="icon/lin(2).png"></a></li>
 										<li><a href="#"><img src="icon/instagram.png"></a></li>
 									</ul>
-									<a href="index.html"> <img src="images/logo.png" alt="logo"></a>
+									<a href="#"> <img src="images/logo.png" alt="logo"></a>
 								</div>
 							</div>
 							<div class="col-lg-3 col-md-6 col-sm-6">
 								<div class="address">
 									<h3>Quick links</h3>
 									<ul class="Menu_footer">
-										<li class="active"><img src="images/3.png" alt="#">
-											<a href="#game">Game</a></li>
+										<!--<li class="active"><img src="images/3.png" alt="#">
+											<a href="#game">Game</a></li> -->
 										<li><img src="images/3.png" alt="#"> <a
-											href="#software">Software</a></li>
+											href="#software">Abstract</a></li>
 										<li><img src="images/3.png" alt="#"> <a
 											href="#about">About</a></li>
 										<li><img src="images/3.png" alt="#"> <a
@@ -51,13 +51,14 @@
 								<div class="address">
 									<h3>Authors</h3>
 									<ul class="Links_footer">
-										<li class="active"><img src="images/3.png" alt="#">Gaurav</li>
+										<li class="active"><img src="images/3.png" alt="#">Tech Maneuvers</li>
+										<!--<li><img src="images/3.png" alt="#">Gaurav</li>
 										<li><img src="images/3.png" alt="#">Sumanth</li>
 										<li><img src="images/3.png" alt="#"> Pratyusha</li>
 										<li><img src="images/3.png" alt="#"> Rachana</li>
 										<li><img src="images/3.png" alt="#"> Anjali</li>
 										<li><img src="images/3.png" alt="#"> Sai</li>
-										<li><img src="images/3.png" alt="#"> Rakesh</li>
+										<li><img src="images/3.png" alt="#"> Rakesh</li> -->
 									</ul>
 								</div>
 							</div>

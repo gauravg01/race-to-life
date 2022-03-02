@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <title>Race to Life | R2L</title>
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
 </head>
 <!-- body -->
 

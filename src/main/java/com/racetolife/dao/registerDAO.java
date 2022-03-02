@@ -51,7 +51,7 @@ public class registerDAO {
 
 	public String generateToken(String email) {
 		String token = RandomStringUtils.random(11, true, true);
-		String sql="insert into regtoken(username,token) values (?,?)";
+		String sql="insert into ase.regtoken(username,token) values (?,?)";
 		try {
 			jdbcTemplate.update(sql, email, token);
 		}
@@ -63,9 +63,9 @@ public class registerDAO {
 	}
 
 	public String activateAccount(String token, String username) {
-		String sql1="select id from regtoken where username=? and token=?";
-		String sql2="update users set enabled=? where username=?";
-		String sql3="delete from regtoken where username=?";
+		String sql1="select id from ase.regtoken where username=? and token=?";
+		String sql2="update ase.users set enabled=? where username=?";
+		String sql3="delete from ase.regtoken where username=?";
 		int result=0;
 		try {
 			result = jdbcTemplate.queryForObject(sql1,new Object[] {username,token},Integer.class);
@@ -91,7 +91,7 @@ public class registerDAO {
 	}
 
 	public String checkUser(String username) {
-		String sql = "select enabled from users where username=?";
+		String sql = "select enabled from ase.users where username=?";
 		Boolean result=false;
 		try {
 			result=jdbcTemplate.queryForObject(sql, new Object[] {username},Boolean.class);

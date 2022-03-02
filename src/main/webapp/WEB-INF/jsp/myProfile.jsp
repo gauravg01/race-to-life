@@ -72,7 +72,7 @@ th, td {
 							<div class="full">
 								<div class="center-desk">
 									<div class="logo">
-										<a href="index.html"><img src="images/logo.png" alt="#" /></a>
+										<a href="/"><img src="images/logo.png" alt="#" /></a>
 									</div>
 								</div>
 							</div>
@@ -81,7 +81,7 @@ th, td {
 
 							<ul class="top_icon">
 								<li><a href="/home">Home</a></li>
-								<li><a href="/profileWeb">My Profile</a></li>
+								<li><a href="/myProfile">My Profile</a></li>
 								<li class="button_login"><a href="/logoutWeb">Logout</a></li>
 							</ul>
 						</div>

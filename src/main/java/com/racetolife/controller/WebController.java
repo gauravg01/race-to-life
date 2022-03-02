@@ -194,7 +194,6 @@ public class WebController{
 			model.put("error", "User not found! Please Register first!");
 		else
 			model.put("error", "Try again later");
-		System.out.println("I am here ------------------------------------------------------: "+check);
 		return "activateAccount";
 	}
 

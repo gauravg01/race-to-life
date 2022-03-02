@@ -61,7 +61,7 @@ public class WebController{
 			model.put("login", "true");
 			model.put("register", "true");
 		}
-		return "home";
+		return "login";
 	}
 	
 	@PostMapping("/loginWeb")
